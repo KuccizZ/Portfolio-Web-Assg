@@ -1,0 +1,52 @@
+body{
+    font-family: 'Fredoka';
+    background-color: #3aafa9;
+    font-size: 150%;
+}
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+
+.email{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    font-size: large;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.email:hover{
+    font-weight: bold;
+}
+
+.intro{
+    font-size: 56px;
+}
+
+.container1{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.sidelink{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    margin: 350px 0 0 20px;
+}
+
+.link {
+    font-family: 'Fredoka One', cursive;
+    color: #2b7a78;
+    text-decoration: grammar-error;
+}
+
+.link:hover {
+color: #17252a;
+}
+            
