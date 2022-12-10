@@ -7,6 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+        <link rel="icon" href="http://asifzulkifli02.000webhostapp.com/favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -15,6 +17,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Major+Mono+Display&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div>
+            <a href="index.html">
+                <img src="glass.png" class="topimg" width="100px" data-aos="zoom-in-right">
+            </a>
+        </div>
+
         <div class="sidelink">
             <a href="index.html" class="link">
                 home.
@@ -32,6 +40,90 @@
                 <img src="github.png" id="github" width="25">.com
             </a>
         </div>
-        <div>TODO write content</div>
+        <article class="container2" data-aos="fade-down">
+            <h1 class="intro">
+                <span style="color: #17252a;">my</span> 
+                Achievements.
+            </h1>
+
+            <h2>Academics</h2>
+            <div class="table" data-aos="zoom-in">
+                <div class="box"><span style="font-family: Fredoka One, cursive; font-size: 110%;">SERTIS (2010-2012)</span>
+                    <p>
+                        Primary 1 - 3
+                    </p>
+                </div>
+                <div class="box"><span style="font-family: Fredoka One, cursive; font-size: 110%;">SRIAAKT (2012-2014)</span>
+                    <p>
+                        Primary 4 - 6
+                    </p>
+                    <p>
+                        UPSR : 5A (2014)
+                    </p>
+                </div>
+                <div class="box"><span style="font-family: Fredoka One, cursive; font-size: 110%;">MTT (2015-2019)</span>
+                    <p>
+                        Form 1 - 5 
+                    </p>
+                    <p>
+                        PT3 : 7A 2B (2017) <br>
+                        SPM : 5A 3B 3C (2019)
+                    </p>
+                </div>
+                <div class="box"><span style="font-family: Fredoka One, cursive; font-size: 110%;">USIM (2020-2021)</span>
+                    <p>
+                        Foundation (Tamhidi) for a year at Universiti Sains Islam Malaysia (USIM)
+                    </p>
+                    <p>
+                        SEM 1 : 3.67<br>
+                        SEM 2 : 3.78<br>
+                        CGPA : 3.73
+                    </p>
+                </div>
+                <div class="box"><span style="font-family: Fredoka One, cursive; font-size: 110%;">UniSZA (2021 - now)</span>
+                    <p>
+                        Bachelor's Degree of Computer Science with Honours (Software Development)
+                    </p>
+                    <p>
+                        SEM 1 : RAHSIAAA<br>
+                        SEM 2 : RAHSIAAA<br>
+                    </p>
+                </div>
+            </div>
+            <br><br>
+            <h2>Co-Curricular</h2>
+            <div class="table" data-aos="zoom-out">
+                <div class="box2">
+                    Deputy Head of School Prefects
+                    <p>SRIAAKT and MTT</p>
+
+                </div>
+                <div class="box2">
+                    Secretary of Briged Amal MTT
+                    <p>(2019)</p>
+                </div>
+                <div class="box2">
+                    Committee member of Multimedia for Sekretariat Pelajar Tamhidi USIM
+                </div>
+                <div class="box2">
+                    Member of Persatuan Seni Silat Cekak Ustaz Hanafi Malaysia (PSSCUHM) UniSZA
+                </div>
+            </div>
+
+
+        </article>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+        AOS.init();
+
+        function gitty(){
+        document.getElementById("github").src = "github2.png";
+        }
+
+        function getto(){
+            document.getElementById("github").src = "github.png";
+        }
+        </script>
     </body>
 </html>

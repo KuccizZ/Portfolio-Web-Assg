@@ -7,6 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+        <link rel="icon" href="http://asifzulkifli02.000webhostapp.com/favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -15,6 +17,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Major+Mono+Display&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div>
+            <a href="index.html">
+                <img src="glass.png" class="topimg" width="100px" data-aos="zoom-in-right">
+            </a>
+        </div>
+
         <div class="sidelink">
             <a href="index.html" class="link">
                 home.
@@ -32,6 +40,25 @@
                 <img src="github.png" id="github" width="25">.com
             </a>
         </div>
-        <div>TODO write content</div>
+        <article class="container2" data-aos="fade-down">
+            <h1 class="intro">
+                <span style="color: #17252a;">Kuciss'</span> 
+                Blog
+            </h1>
+            
+        </article>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+        AOS.init();
+
+        function gitty(){
+        document.getElementById("github").src = "github2.png";
+        }
+
+        function getto(){
+            document.getElementById("github").src = "github.png";
+        }
+        </script>
     </body>
 </html>

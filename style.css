@@ -1,5 +1,5 @@
 body{
-    font-family: 'Fredoka';
+    font-family: 'Fredoka', cursive;
     background-color: #3aafa9;
     font-size: 150%;
 }
@@ -7,6 +7,11 @@ body{
 h1{
     font-family: 'Fredoka One', cursive;
     color: white;
+}
+
+.topimg{
+    margin: 5px 5px;
+    position: fixed;
 }
 
 .email{
@@ -24,12 +29,57 @@ h1{
 }
 
 .intro{
+    text-align: center;
     font-size: 56px;
+    margin-top: -10px;
 }
 
 .container1{
     text-align: center;
     padding-top: 150px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container2{
+    text-align: center;
+    padding-top: 60px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.table{
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.box{
+    border-radius: 25px;
+    background-color:#2f9995;
+    border-color:transparent;
+    color: white;
+    padding: 20px;
+    margin: 5px 5px;
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 100px;
+}
+
+.box2 {
+    border-radius: 25px;
+    background-color:#2f9995;
+    border-color:transparent;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    margin: 5px 5px;
+    min-width: 215px;
+    max-width: 215px;
+    min-height: 100px;
+
 }
 
 .sidelink{
@@ -48,5 +98,21 @@ h1{
 
 .link:hover {
 color: #17252a;
+}
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 130%;
+    }
+
+    .topimg{
+        position: absolute;
+    }
+
+    .sidelink {
+        position: absolute;
+        font-size: larger;
+        margin: 65px 0 0 0;
+    }
 }
             

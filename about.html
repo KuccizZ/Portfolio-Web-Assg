@@ -5,6 +5,8 @@
         <title>About.</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+        <link rel="icon" href="http://asifzulkifli02.000webhostapp.com/favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -14,6 +16,12 @@
     </head>
     
     <body>
+        <div>
+            <a href="index.html">
+                <img src="glass.png" class="topimg" width="100px" data-aos="zoom-in-right">
+            </a>
+        </div>
+
         <div class="sidelink">
             <a href="index.html" class="link">
                 home.
@@ -32,23 +40,44 @@
             </a>
         </div>
 
-        <article class="container1">
-            <img src="portrait.png" width="20%">
-            <h1 class="intro">About me.</h1>
-            <div>
+        <article class="container2" data-aos="fade-down">
+            <img src="portrait.png" width="300px" class="intro">
+            <h1 class="intro">About 
+                <span style="color: #17252a;">me.</span></h1>
+            <div style="text-align: justify;">
                 <p>
-                    My name is Muhammad Asif Affan bin Zulkifli.
+                    My name is 
+                    <span style="color: white;">Muhammad Asif Affan bin Zulkifli.</span> (nicknamed Kuciss~)
                 </p>
                 <p>
-                    born on Thursday, 11th of April 2002 as a 'Tranung boi'.
+                    born on Thursday, 11th of April 2002 in <a href="https://goo.gl/maps/N78DjCNNTVYw6neZ9" style="text-decoration: none; color: white" class="link2">
+                        TERENGGANU, MALAYSIA.
+                    </a>
+                    <br>Currently pursuing my study in <a href="https://www.unisza.edu.my/" style="text-decoration: none; color: white" class="link2">
+                        Universiti Sultan Zainal Abidin(UniSZA)
+                    </a>
+                    <br>Majoring in Bachelor's Degree of Computer Science Software Development.
                 </p>
                 <p>
-
+                    I have been finding my interest and passion for some time now and finally profound interest in computer programming specifically developing softwares. 
                 </p>
             </div>
 
         </article>
         
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+        AOS.init();
+
+        function gitty(){
+        document.getElementById("github").src = "github2.png";
+        }
+
+        function getto(){
+            document.getElementById("github").src = "github.png";
+        }
+        </script>
     
     </body>
 </html>
