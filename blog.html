@@ -2,13 +2,13 @@
 
 <html>
     <head>
-        <title>Blog.</title>
+        <title>Kuciss' Blog.</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-        <link rel="icon" href="http://asifzulkifli02.000webhostapp.com/favicon.ico">
+        <link rel="icon" href="/https://asifzulkifli02.000webhostapp.com/favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -36,29 +36,132 @@
             <a href="blog.html" class="link">
                 blog.
             </a><br>
-            <a href="https://github.com/KuccizZ" class="link" onmouseover="gitty()" onmouseout="getto()">
-                <img src="github.png" id="github" width="25">.com
+            <a href="https://github.com/KuccizZ" target="_blank" class="link">
+                <i class="fa-brands fa-github"></i>.com
             </a>
         </div>
         <article class="container2" data-aos="fade-down">
             <h1 class="intro">
                 <span style="color: #17252a;">Kuciss'</span> 
-                Blog
+                Blog.
             </h1>
-            
+            <br><br>
+
+            <div class="table" data-aos="zoom-in">
+                <div class="box4" id="dekan" style="background-image: url(dekan.jpg);" onmouseenter="dekan()" onmouseleave="dekanx()">Anugerah Dekan Semester 1 <br> ...</div>
+                <div class="box4" id="nz" style="background-image: url(nz.jpg);" onmouseenter="nz()" onmouseleave="nzx()">New Zealand Trip <br> ...</div>
+                <div class="box4" id="ind" style="background-image: url(ind.jpg);" onmouseenter="ind()" onmouseleave="indx()">Aceh-Meulaboh-Medan <br> ...</div>
+                <div class="box4" id="sbh" style="background-image: url(sbh.jpg);" onmouseenter="sbh()" onmouseleave="sbhx()">Kinamaluuu <br> ...</div>
+                <div class="box4" id="fml" style="background-image: url(fml.jpg);" onmouseenter="fml()" onmouseleave="fmlx()">My Family <br> ...</div>
+            </div>
+
+            <br><br><br>
+
+            <div class="botlink">
+                <a href="index.html" class="link">
+                    home.
+                </a>&nbsp;&nbsp;
+                <a href="about.html" class="link">
+                    about.
+                </a>&nbsp;&nbsp;
+                <a href="achievement.html" class="link">
+                    achievements.
+                </a>&nbsp;&nbsp;
+                <a href="blog.html" class="link">
+                    blog.
+                </a>&nbsp;&nbsp;
+                <a href="https://github.com/KuccizZ" target="_blank" class="link">github.com</a>
+            </div>
+
         </article>
 
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://kit.fontawesome.com/663f2378e2.js"
+        crossorigin="anonymous"></script>
         <script>
         AOS.init();
 
-        function gitty(){
-        document.getElementById("github").src = "github2.png";
+        function dekan(){
+            document.getElementById("dekan").innerHTML= 
+            "Anugerah Dekan Semester 1 <br><br> Alhamdulillah my hardworks are paying off by receiving the Dean's List Award, more so that my own Mentor handing it over. Thank you everyone that helped me before and throughout the semester.";
+            document.getElementById("dekan").style.fontSize="80%";
+            document.getElementById("dekan").style.backgroundImage="url(dekan.jpg)";
+            document.getElementById("dekan").style.alignItems="flex-end";
+            document.getElementById("dekan").style.display="flex";
+
+        }
+        function dekanx(){
+            document.getElementById("dekan").innerHTML="Anugerah Dekan Semester 1 <br> ...";
+            document.getElementById("dekan").style.fontSize="26px";
+            document.getElementById("dekan").style.height="fit-content";
+            document.getElementById("dekan").style.backgroundImage="url(dekan.jpg)";
+            document.getElementById("dekan").style.display="block";
+        }
+        function nz(){
+            document.getElementById("nz").innerHTML=
+            "New Zealand Trip <br><br> A little memory frame of the trip to New Zealand (2019)";
+            document.getElementById("nz").style.fontSize="80%";
+            document.getElementById("nz").style.backgroundImage="url(nz.jpg)";
+            document.getElementById("nz").style.alignItems="flex-end";
+            document.getElementById("nz").style.display="flex";
+
+        }
+        function nzx(){
+            document.getElementById("nz").innerHTML="New Zealand Trip <br> ...";
+            document.getElementById("nz").style.fontSize="26px";
+            document.getElementById("nz").style.height="fit-content";
+            document.getElementById("nz").style.backgroundImage="url(nz.jpg)";
+            document.getElementById("nz").style.display="block";
+        }
+        function ind(){
+            document.getElementById("ind").innerHTML=
+            "Aceh-Meulaboh-Medan <br><br> Jalan-jalan sama ibuk bapak ke negara jiran (2021)";
+            document.getElementById("ind").style.fontSize="80%";
+            document.getElementById("ind").style.backgroundImage="url(ind.jpg)";
+            document.getElementById("ind").style.alignItems="flex-end";
+            document.getElementById("ind").style.display="flex";
+
+        }
+        function indx(){
+            document.getElementById("ind").innerHTML="Aceh-Meulaboh-Medan <br> ...";
+            document.getElementById("ind").style.fontSize="26px";
+            document.getElementById("ind").style.height="fit-content";
+            document.getElementById("ind").style.backgroundImage="url(ind.jpg)";
+            document.getElementById("ind").style.display="block";
+        }
+        function sbh(){
+            document.getElementById("sbh").innerHTML=
+            "Kinamaluuu <br><br> Me, che(my mom), sister, SIL, 'anak fruits', and BIL goin places in Sabah. Drove from KK to Kundasang, it was so worth it! the view, weather, adventure are top notch, defo a must go travel place in Malaysia~ (2021)";
+            document.getElementById("sbh").style.fontSize="80%";
+            document.getElementById("sbh").style.backgroundImage="url(sbh.jpg)";
+            document.getElementById("sbh").style.alignItems="flex-end";
+            document.getElementById("sbh").style.display="flex";
+
+        }
+        function sbhx(){
+            document.getElementById("sbh").innerHTML="Kinamaluuu <br> ...";
+            document.getElementById("sbh").style.fontSize="26px";
+            document.getElementById("sbh").style.height="fit-content";
+            document.getElementById("sbh").style.backgroundImage="url(sbh.jpg)";
+            document.getElementById("sbh").style.display="block";
+        }
+        function fml(){
+            document.getElementById("fml").innerHTML=
+            "My Family <br><br> I am always grateful to be born into this awesome family that accepts me for who I am, Alhamdulillah <3";
+            document.getElementById("fml").style.fontSize="80%";
+            document.getElementById("fml").style.backgroundImage="url(fml.jpg)";
+            document.getElementById("fml").style.alignItems="flex-end";
+            document.getElementById("fml").style.display="flex";
+
+        }
+        function fmlx(){
+            document.getElementById("fml").innerHTML="My Family <br> ...";
+            document.getElementById("fml").style.fontSize="26px";
+            document.getElementById("fml").style.height="fit-content";
+            document.getElementById("fml").style.backgroundImage="url(fml.jpg)";
+            document.getElementById("fml").style.display="block";
         }
 
-        function getto(){
-            document.getElementById("github").src = "github.png";
-        }
         </script>
     </body>
 </html>
